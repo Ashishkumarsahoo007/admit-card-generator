@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admit Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Admit Card Generator</h1>
+    <form id="admit-card-form">
+        <label for="college-name">College Name:</label>
+        <input type="text" id="college-name" name="college-name"><br><br>
+        <label for="student-name">Student Name:</label>
+        <input type="text" id="student-name" name="student-name"><br><br>
+        <label for="role-number">Role Number:</label>
+        <input type="number" id="role-number" name="role-number"><br><br>
+        <label for="section">Section:</label>
+        <input type="text" id="section" name="section"><br><br>
+        <label for="image-url">Image URL:</label>
+        <input type="url" id="image-url" name="image-url"><br><br>
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch"><br><br>
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester"><br><br>
+        <button type="submit">Generate Admit Card</button>
+    </form>
+    <div id="admit-card-container">
+        <!-- Admit card will be generated here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
